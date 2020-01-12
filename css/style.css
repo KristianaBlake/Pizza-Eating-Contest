@@ -1,0 +1,251 @@
+body{
+	background-color: #FFD919;
+}
+
+#startGame {
+	visibility: hidden;
+
+}
+
+#startGame.active {
+	visibility: visible;
+
+	border: 7px solid #D4D4D4;
+
+	background-color: grey;
+	text-align: center;
+	font-size: 30px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 8px;
+	padding-right: 8px;
+
+}
+
+#alertPlayer2 {
+	visibility: hidden;
+}
+
+#alertPlayer2.active {
+	visibility: visible;
+
+	border: 7px solid #D4D4D4;
+
+	background-color: grey;
+	text-align: center;
+	font-size: 30px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 8px;
+	padding-right: 8px;
+
+}
+
+#player1Wins {
+
+	visibility: hidden;
+}
+
+#player1Wins.active {
+
+	visibility: visible;
+
+	border: 7px solid #D4D4D4;
+
+	background-color: #f05716;
+	text-align: center;
+	font-size: 30px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+#player2Wins {
+
+	visibility: hidden;
+}
+
+#player2Wins.active {
+
+	visibility: visible;
+
+	border: 7px solid #D4D4D4;
+
+	background-color: #f05716;
+	text-align: center;
+	font-size: 30px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+#tie {
+
+	visibility: hidden;
+}
+
+#tie.active {
+
+	visibility: visible;
+
+	border: 7px solid #D4D4D4;
+
+	background-color: #f05716;
+	text-align: center;
+	font-size: 30px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+
+
+div#container {
+	position: static;
+	margin-left: auto;
+    margin-right: auto;
+  /*  width: 1000px;
+    height: 800px;*/
+
+	flex-direction: row; 
+}
+
+header {
+	position: static;
+    width: 1000px ;
+    height: 100px ; 
+    text-align: center;  
+    font-size: 75px;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    padding: 25px;
+    padding-left: 155px;
+    padding-right: 25px;
+   	text-emphasis: bold; 
+}
+
+
+#player1{
+
+	display: inline-block;
+	justify-content: center;
+	padding-left: 250px;
+   /* padding-right: 15px;*/
+	width: 45%;
+	height: 20%;
+	
+}
+
+#player1-name{
+
+	font-size: 30px;
+	
+}
+
+#timer-left{
+
+	margin-left: auto;
+	margin-right: auto;
+	height: 30px;
+	width: 60px;
+	font-size: 15px;
+	
+}
+
+#player1-score{
+
+	font-size: 25px;
+}
+
+.pizzas-left{
+
+	font-size: 50px;
+	
+}
+
+#eat-left{
+
+	margin-left: auto;
+	margin-right: auto;
+	height: 30px;
+	width: 60px;
+	font-size: 15px;
+	
+}
+
+#toilet-left{
+
+	margin-left: auto;
+	margin-right: auto;
+	height: 30px;
+	width: 60px;
+	font-size: 15px;
+	
+}
+
+#reset-left{
+	
+	height: 30px;
+	width: 60px;
+	font-size: 15px;
+	
+}
+
+#player2{
+
+	display: inline-block;
+	justify-content: center;
+	padding-left: 15px;
+    padding-right: 25px;
+	width: 30%;
+	height: 20%;
+	
+}
+
+#player2-name{
+
+	font-size: 30px;
+}
+
+#timer-right{
+
+	height: 30px;
+	width: 60px;
+	font-size: 15px;
+}
+
+#player2-score{
+
+	font-size: 25px;
+}
+
+.pizzas-right{
+
+	font-size: 50px;
+}
+
+#eat-right{
+	
+	height: 30px;
+	width: 60px;
+	font-size: 15px;
+	
+}
+
+#toilet-right{
+	
+	height: 30px;
+	width: 60px;
+	font-size: 15px;
+}
+
+#reset-right{
+
+	height: 30px;
+	width: 60px;
+	font-size: 15px;
+}
+

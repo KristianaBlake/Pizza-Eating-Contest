@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Pizza Eating Contest</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+    integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+    crossorigin="anonymous"></script>
+</head>
+<body>
+
+	<div id="startGame">
+		<p>Game Instructions</p>
+		<p>Welcome to the Pizza Eating Contest!</p>
+		<p>Eat as many pieces of pizza until the timer runs out. But be careful! Eat to little and you'll be disqualified or eat to many and you'll get sick! Once all pieces are clicked, empty yourself to eat more pizza. </p>
+		<p>The player that has eaten the most amount of pieces wins.</p>
+		<p>Player 1 clicks on the timer to begin.</p>
+		<p>Good luck!</p>
+		<button class="closeBox">Close</button>
+	</div>
+
+	<div id="alertPlayer2">
+		<p>Player 2, it's your turn!</p>
+		<p>Click on timer to start.</p>
+		<button class="closeBox">Close</button>
+	</div>
+
+	<div id="player1Wins">
+		<p>Player 1 Wins!</p>
+	</div>
+
+	<div id="player2Wins">
+		<p>Player 2 Wins!</p>
+	</div>
+
+	<div id="tie">
+		<p>It's a tie!</p>
+	</div>
+
+	<div id=container>
+
+		<header> <strong> 🍕 Pizza Eating Contest 🍕 </strong> </header>
+
+		<div id=player1> 
+
+		<h2 id="player1-name">Player 1</h2>
+		<button id="timer-left">00:20</button>
+		<h4 id="player1-score"> Score: </h3>
+		
+		<div class="pizzas-left"> 
+
+			<div class="pizzasL">
+
+				<div id="0-A">🍕</div>
+
+				<div id="1-A">🍕</div>		
+
+				<div id="2-A">🍕</div>
+
+				<div id="3-A">🍕</div>
+
+				<div id="4-A">🍕</div>
+
+				<div id="5-A">🍕</div>
+
+			</div>
+			
+		</div>
+			<br> 
+			<button id="eat-left">Eat</button>
+			<button id="toilet-left">🚽</button>
+			<br>
+			<button id="reset-left">Reset</button>
+
+
+		</div>
+
+		<div id=player2> 
+
+			<h2 id="player2-name">Player 2</h2>
+			<button id="timer-right">00:20</button>
+			<h3 id="player2-score"> Score: </h3>
+
+			<div class="pizzas-right"> 
+
+				<div class="pizzasR">
+
+					<div id="0-B">🍕</div>
+
+					<div id="1-B">🍕</div>
+
+					<div id="2-B">🍕</div>
+
+					<div id="3-B">🍕</div>
+
+					<div id="4-B">🍕</div>
+
+					<div id="5-B">🍕</div>
+
+				</div>
+
+			</div>
+
+			<br> 
+			<button id="eat-right">Eat</button>
+			<button id="toilet-right">🚽</button>
+			<br>
+			<button id="reset-right">Reset</button>
+
+		</div>
+
+	</div>
+
+<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
